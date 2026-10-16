@@ -1,0 +1,20 @@
+
+Municipality {
+  municipalityID   PK
+  name
+}
+
+Barangay {
+  brgyID           PK
+  name
+  type
+  municipalityID   FK
+}
+
+BarangayStatistics {
+  statisticsID     PK
+  brgyID           FK
+  year
+  totalPopulation
+  totalVoters
+}
