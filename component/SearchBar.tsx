@@ -11,11 +11,15 @@ export type SearchResult = {
   lng: number | null;
 };
 
+type SearchBarProps = {
+  onSelect: (result: SearchResult) => void;
+  onClear: () => void;
+};
+
 export default function SearchBar({
   onSelect,
-}: {
-  onSelect: (r: SearchResult) => void;
-}) {
+  onClear,
+}: SearchBarProps) {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<SearchResult[]>([]);
   const [open, setOpen] = useState(false);
@@ -84,13 +88,19 @@ export default function SearchBar({
     onSelect(r);
   }
 
-  function clear() {
-    setQuery("");
-    setResults([]);
-    setSearched(false);
-    setOpen(false);
-    inputRef.current?.focus();
-  }
+
+function clear() {
+  setQuery("");
+  setResults([]);
+  setSearched(false);
+  setOpen(false);
+  setActive(-1);
+
+  onClear();
+
+  inputRef.current?.focus();
+}
+
 
   function onKeyDown(e: React.KeyboardEvent) {
     if (e.key === "Escape") {
@@ -192,12 +202,15 @@ export default function SearchBar({
               {i === active && (
                 <span className="absolute inset-y-1.5 left-0 w-0.5 rounded-full bg-neutral-900" />
               )}
-              <div className="truncate text-sm text-neutral-900">{r.label}</div>
-              <div className="truncate text-xs text-neutral-500">
-                {r.kind === "barangay" ? "Barangay" : "Municipality"}
-                {r.subtitle && <span className="text-neutral-300"> · </span>}
-                {r.subtitle}
-              </div>
+            <div className="truncate text-sm font-medium text-neutral-900">
+  {r.label}
+</div>
+
+<div className="truncate text-xs text-neutral-500">
+  {r.kind === "barangay"
+    ? `Municipality: ${r.subtitle?.split(" · ").pop()}`
+    : "Municipality"}
+</div>
             </li>
           ))}
           {searched && results.length === 0 && (

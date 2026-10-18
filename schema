@@ -11,7 +11,7 @@ Barangay {
   municipalityID   FK
 }
 
-BarangayStatistics {
+barangay_statistics {
   statisticsID     PK
   brgyID           FK
   year

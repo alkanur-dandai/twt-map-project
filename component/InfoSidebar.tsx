@@ -48,6 +48,7 @@ export default function InfoSidebar({
 
   return (
     <aside className="absolute right-0 top-0 bottom-0 z-20 w-80 sm:w-96 bg-white border-l border-gray-200 shadow-2xl flex flex-col font-sans transition-all duration-300">
+
       {/* Top Header Bar */}
       <div className="flex items-center justify-between px-6 py-5 border-b border-gray-100 bg-gray-50/50">
         <div className="flex items-center space-x-2">
@@ -89,20 +90,37 @@ export default function InfoSidebar({
         {!loading && info && (
           <div className="space-y-6">
             {/* Title Section */}
-            <div>
-              <h2 className="text-xl font-bold text-gray-900 tracking-tight">{info.name}</h2>
-              <p className="text-xs text-gray-500 mt-1">
-                {info.kind === "barangay" ? (
-                  <>
-                    {info.type} · <span className="font-medium text-gray-700">{info.municipality}</span>
-                  </>
-                ) : (
-                  <>
-                    Municipality · <span className="font-medium text-gray-700">{info.barangayCount} Barangays</span>
-                  </>
-                )}
-              </p>
-            </div>
+          <div>
+  <h2 className="text-xl font-bold tracking-tight text-gray-900">
+    {info.name}
+  </h2>
+
+  <div className="mt-1 space-y-1">
+    {info.kind === "barangay" ? (
+      <>
+        <p className="text-xs font-medium text-gray-600">
+          {info.type}
+        </p>
+        <p className="text-xs text-gray-500">
+          Municipality:{" "}
+          <span className="font-medium text-gray-700">
+            {info.municipality}
+          </span>
+        </p>
+      </>
+    ) : (
+      <>
+        
+        <p className="text-xs text-gray-500">
+          Total Barangays:{" "}
+          <span className="font-medium text-gray-700">
+            {info.barangayCount}
+          </span>
+        </p>
+      </>
+    )}
+  </div>
+</div>
 
             {/* Statistical Table - Header Always Displayed */}
             <div className="space-y-3">

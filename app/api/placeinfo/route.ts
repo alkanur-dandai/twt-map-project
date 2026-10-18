@@ -29,7 +29,7 @@ export async function GET(req: Request) {
     const [{ data: m }, { data: stats, error: statsErr }] = await Promise.all([
       supabase.from("municipality").select("name").eq("municipalityID", b.municipalityID).single(),
       supabase
-        .from("barangaystatistics")
+        .from("barangay_statistics")
         .select("year, totalPopulation, totalVoters")
         .eq("brgyID", id)
         .order("year", { ascending: false }),
@@ -66,7 +66,7 @@ export async function GET(req: Request) {
     const brgyIds = (brgys ?? []).map((b: any) => b.brgyID);
     const { data: stats, error: statsErr } = brgyIds.length
       ? await supabase
-          .from("barangaystatistics")
+          .from("barangay_statistics")
           .select("brgyID, year, totalPopulation, totalVoters")
           .in("brgyID", brgyIds)
           .order("year", { ascending: false })
@@ -74,18 +74,45 @@ export async function GET(req: Request) {
     if (statsErr) console.error("Stats error:", statsErr);
 
     // most recent record per barangay (rows are already sorted newest first)
-    const latest = new Map<number, any>();
-    for (const s of stats ?? []) if (!latest.has(s.brgyID)) latest.set(s.brgyID, s);
-    const rows = [...latest.values()].map(toStat);
+   
+    // Group statistics by year and sum all barangay values.
+    const yearlyStats = new Map<
+      number,
+      { year: number; totalPopulation: number; totalVoters: number }
+    >();
+
+    for (const s of stats ?? []) {
+      const year = Number(s.year);
+
+      if (!yearlyStats.has(year)) {
+        yearlyStats.set(year, {
+          year,
+          totalPopulation: 0,
+          totalVoters: 0,
+        });
+      }
+
+      const current = yearlyStats.get(year)!;
+
+      current.totalPopulation += Number(s.totalPopulation ?? 0);
+      current.totalVoters += Number(s.totalVoters ?? 0);
+    }
+
+    // Newest year first.
+    const rows = Array.from(yearlyStats.values()).sort(
+      (a, b) => b.year - a.year
+    );
 
     return NextResponse.json({
       kind: "municipality",
       name: m.name,
       barangayCount: brgyIds.length,
-      totalPopulation: rows.reduce((n, s) => n + s.totalPopulation, 0),
-      totalVoters: rows.reduce((n, s) => n + s.totalVoters, 0),
+      totalPopulation: rows[0]?.totalPopulation ?? 0,
+      totalVoters: rows[0]?.totalVoters ?? 0,
       barangays: (brgys ?? []).map((b: any) => b.name),
+      stats: rows,
     });
+
   }
 
   return NextResponse.json(null, { status: 400 });
