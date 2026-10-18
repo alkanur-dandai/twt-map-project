@@ -126,30 +126,44 @@ return (
 {/* Search bar + GeoLayer button */}
 
 {/* Search bar + GeoLayer button */}
-<div className="absolute left-4 top-4 z-30 flex items-center gap-2">
-  <div className="w-80 [&_nav]:pointer-events-auto">
-    <SearchBar onSelect={handleSearchSelect}
-    onClear={clearSearchSelection} />
+
+{/* Search bar + GeoLayer button */}
+<div className="absolute left-3 right-3 top-3 z-30 flex flex-col items-stretch gap-2 sm:left-4 sm:right-auto sm:top-4 sm:flex-row sm:items-start">
+  <div className="w-full sm:w-80 [&_nav]:pointer-events-auto">
+    <SearchBar
+      onSelect={handleSearchSelect}
+      onClear={clearSearchSelection}
+    />
   </div>
 
   <button
     type="button"
     onClick={toggleGeoLayer}
-    className="flex h-10 shrink-0 items-center justify-center rounded-lg border border-gray-200 bg-white px-4 text-sm font-medium text-gray-900 shadow-md hover:bg-gray-100"
+
+className="flex h-10 w-fit min-w-0 shrink-0 items-center justify-center self-start rounded-lg border border-gray-300 bg-white px-3 text-xs font-medium text-gray-900 shadow-md transition hover:bg-gray-100 sm:h-10 sm:w-auto sm:px-4 sm:text-sm"
   >
-    {showGeoLayer ? "Hide province boundary" : "Show province boundary"}
+    {showGeoLayer
+      ? "Hide province boundary"
+      : "Show province boundary"}
   </button>
 </div>
 
 
 
+
     {/* Selected barangay information */}
-    {selected && (
-      <InfoSidebar
-        selected={selected}
-        onClose={() => setSelected(null)}
-      />
-    )}
+
+{/* Selected barangay information */}
+
+{/* Selected barangay information */}
+{selected && (
+    <InfoSidebar
+      selected={selected}
+      onClose={() => setSelected(null)}
+    />
+  
+)}
+
 
     {/* Map style selector */}
     <div className="absolute bottom-4 left-4 z-10">
