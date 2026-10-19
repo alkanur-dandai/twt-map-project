@@ -50,7 +50,9 @@ export default function InfoSidebar({
     // <aside className="absolute right-0 top-0 bottom-0 z-20 w-80 sm:w-96 bg-white border-l border-gray-200 shadow-2xl flex flex-col font-sans transition-all duration-300">
 
 
-<aside className="absolute right-0 top-0 bottom-0 z-20 w-80 sm:w-96 max-sm:inset-x-0 max-sm:top-auto max-sm:bottom-0 max-sm:z-40 max-sm:max-h-[55vh] max-sm:rounded-t-2xl max-sm:border-t bg-white border-l border-gray-200 shadow-2xl flex flex-col font-sans transition-all duration-300">
+
+
+<aside className="fixed bottom-0 left-0 right-0 top-auto z-40 flex h-[55vh] max-h-[55vh] flex-col overflow-hidden rounded-t-2xl border-t border-gray-200 bg-white font-sans shadow-2xl sm:absolute sm:bottom-0 sm:left-auto sm:right-0 sm:top-0 sm:h-auto sm:max-h-none sm:w-80 sm:rounded-none sm:border-l sm:border-t-0 md:w-96">
 
       {/* Top Header Bar */}
       <div className="flex items-center justify-between px-6 py-5 border-b border-gray-100 bg-gray-50/50">

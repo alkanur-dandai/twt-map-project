@@ -2216922,7 +2216922,6 @@
             "properties": {
                 "adm4_en": "Nalil",
                 "geo_level": "Bgy",
-                "Brgy name": "nalil",
                 "municipality": "bongao"
             }
         },
@@ -2235102,7 +2235101,7 @@
                 ]
             },
             "properties": {
-                "adm4_en": "Bongao Poblacion",
+                "adm4_en": "Poblacion",
                 "geo_level": "Bgy",
                 "municipality": "bongao"
             }
