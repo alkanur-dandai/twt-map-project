@@ -9,7 +9,7 @@ export default function Navbar() {
   const pathname = usePathname();
 
   const links = [
-    { href: "/", label: "Map View" },
+    { href: "/map", label: "Map View" },
     { href: "/data", label: "Data" },
     { href: "/about", label: "About" },
   ];

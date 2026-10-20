@@ -133,6 +133,7 @@ export default function InfoSidebar({
               <h3 className="text-xs font-bold text-gray-900 uppercase tracking-wider">
                 Statistical Data
               </h3>
+              <p>Based on the POPCEN data of PSA</p>
 
               <div className="max-h-60 overflow-y-auto border border-gray-200 rounded-lg bg-white shadow-xs">
   <table className="w-full text-left text-xs">
