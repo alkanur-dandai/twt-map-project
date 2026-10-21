@@ -66,11 +66,13 @@ function loadGeoJson() {
   return geoJsonPromise;
 }
 
-export function addGeoJsonLayer(map: MapLibreMap) {
+export async function addGeoJsonLayer(map: MapLibreMap) {
+  const geoJson = await loadGeoJson();
+
   if (!map.getSource(GEO_SOURCE_ID)) {
     map.addSource(GEO_SOURCE_ID, {
       type: "geojson",
-      data: "/twt.geojson",
+      data: geoJson,
     });
   }
 
@@ -94,7 +96,7 @@ export function addGeoJsonLayer(map: MapLibreMap) {
       source: GEO_SOURCE_ID,
       layout: { visibility: "none" },
       paint: {
-        "line-color": "#1d4ed8",
+        "line-color": "#4177f3",
         "line-width": 1.5,
       },
     });

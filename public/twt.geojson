@@ -90366,7 +90366,7 @@
             },
             "properties": {
                 "name": "Tangngah",
-                "adm4_en": "Tangngah (Tangngah Ungus Matata)",
+                "adm4_en": "Tangngah",
                 "municipality": "tandubas"
             }
         },
@@ -676177,7 +676177,7 @@
             "properties": {
                 "name": "South Larap",
                 "geo_level": "Bgy",
-                "adm4_en": "South Larap (Larap)",
+                "adm4_en": "South Larap",
                 "municipality": "sitangkai"
             }
         },
@@ -791687,7 +791687,7 @@
             "properties": {
                 "name": "Tampakan",
                 "geo_level": "Bgy",
-                "adm4_en": "Tampakan (Pob.)",
+                "adm4_en": "Tampakan",
                 "municipality": "simunul"
             }
         },
@@ -854993,9 +854993,9 @@
                 ]
             },
             "properties": {
-                "name": "Bagid*",
+                "name": "Bagid",
                 "geo_level": "Bgy",
-                "adm4_en": "Bagid*",
+                "adm4_en": "Bagid",
                 "municipality": "simunul"
             }
         },
@@ -862694,7 +862694,7 @@
                 "name": "Ungus-ungus",
                 "geo_level": "Bgy",
                 "adm4_en": "Ungus-ungus",
-                "municipality": "sibutu"
+                "municipality": "Sibutu"
             }
         },
         {
@@ -873040,7 +873040,7 @@
                 "name": "Tongsibalo",
                 "geo_level": "Bgy",
                 "adm4_en": "Tongsibalo",
-                "municipality": "sibutu"
+                "municipality": "Sibutu"
             }
         },
         {
@@ -887546,7 +887546,7 @@
                 "name": "Tongehat",
                 "geo_level": "Bgy",
                 "adm4_en": "Tongehat",
-                "municipality": "sibutu"
+                "municipality": "Sibutu"
             }
         },
         {
@@ -896844,7 +896844,7 @@
                 "name": "Taungoh",
                 "geo_level": "Bgy",
                 "adm4_en": "Taungoh",
-                "municipality": "sibutu"
+                "municipality": "Sibutu"
             }
         },
         {
@@ -900186,7 +900186,7 @@
                 "name": "Tandu Banak",
                 "geo_level": "Bgy",
                 "adm4_en": "Tandu Banak",
-                "municipality": "sibutu"
+                "municipality": "Sibutu"
             }
         },
         {
@@ -911320,7 +911320,7 @@
                 "name": "Talisay",
                 "geo_level": "Bgy",
                 "adm4_en": "Talisay",
-                "municipality": "sibutu"
+                "municipality": "Sibutu"
             }
         },
         {
@@ -911843,10 +911843,10 @@
                 ]
             },
             "properties": {
-                "name": "Sibutu",
+                "name": "Sibutu Poblacion",
                 "geo_level": "Bgy",
-                "adm4_en": "Sibutu (Pob.)",
-                "municipality": "sibutu"
+                "adm4_en": "Sibutu Poblacion",
+                "municipality": "Sibutu"
             }
         },
         {
@@ -915476,7 +915476,7 @@
                 "name": "Sheik Makdum",
                 "geo_level": "Bgy",
                 "adm4_en": "Sheik Makdum",
-                "municipality": "sibutu"
+                "municipality": "Sibutu"
             }
         },
         {
@@ -929566,7 +929566,7 @@
                 "name": "Nunukan",
                 "geo_level": "Bgy",
                 "adm4_en": "Nunukan",
-                "municipality": "sibutu"
+                "municipality": "Sibutu"
             }
         },
         {
@@ -945540,7 +945540,7 @@
                 "name": "Ligayan",
                 "geo_level": "Bgy",
                 "adm4_en": "Ligayan",
-                "municipality": "sibutu"
+                "municipality": "Sibutu"
             }
         },
         {
@@ -948562,7 +948562,7 @@
                 "name": "Imam Hadji Mohammad",
                 "geo_level": "Bgy",
                 "adm4_en": "Imam Hadji Mohammad",
-                "municipality": "sibutu"
+                "municipality": "Sibutu"
             }
         },
         {
@@ -950640,7 +950640,7 @@
                 "name": "Hadji Taha",
                 "geo_level": "Bgy",
                 "adm4_en": "Hadji Taha",
-                "municipality": "sibutu"
+                "municipality": "Sibutu"
             }
         },
         {
@@ -968282,7 +968282,7 @@
                 "name": "Hadji Mohtar Sulayman",
                 "geo_level": "Bgy",
                 "adm4_en": "Hadji Mohtar Sulayman",
-                "municipality": "sibutu"
+                "municipality": "Sibutu"
             }
         },
         {
@@ -973948,7 +973948,7 @@
                 "name": "Hadji Imam Bidin",
                 "geo_level": "Bgy",
                 "adm4_en": "Hadji Imam Bidin",
-                "municipality": "sibutu"
+                "municipality": "Sibutu"
             }
         },
         {
@@ -974526,7 +974526,7 @@
                 "name": "Datu Amilhamja Jaafar",
                 "geo_level": "Bgy",
                 "adm4_en": "Datu Amilhamja Jaafar",
-                "municipality": "sibutu"
+                "municipality": "Sibutu"
             }
         },
         {
@@ -976412,7 +976412,7 @@
                 "name": "Ambulong Sapal",
                 "geo_level": "Bgy",
                 "adm4_en": "Ambulong Sapal",
-                "municipality": "sibutu"
+                "municipality": "Sibutu"
             }
         },
         {
@@ -984110,7 +984110,7 @@
                 "name": "Ungus-ungus",
                 "geo_level": "Bgy",
                 "adm4_en": "Ungus-ungus",
-                "municipality": "sibutu"
+                "municipality": "Sibutu"
             }
         },
         {
@@ -994456,7 +994456,7 @@
                 "name": "Tongsibalo",
                 "geo_level": "Bgy",
                 "adm4_en": "Tongsibalo",
-                "municipality": "sibutu"
+                "municipality": "Sibutu"
             }
         },
         {
@@ -1008962,7 +1008962,7 @@
                 "name": "Tongehat",
                 "geo_level": "Bgy",
                 "adm4_en": "Tongehat",
-                "municipality": "sibutu"
+                "municipality": "Sibutu"
             }
         },
         {
@@ -1018260,7 +1018260,7 @@
                 "name": "Taungoh",
                 "geo_level": "Bgy",
                 "adm4_en": "Taungoh",
-                "municipality": "sibutu"
+                "municipality": "Sibutu"
             }
         },
         {
@@ -1021602,7 +1021602,7 @@
                 "name": "Tandu Banak",
                 "geo_level": "Bgy",
                 "adm4_en": "Tandu Banak",
-                "municipality": "sibutu"
+                "municipality": "Sibutu"
             }
         },
         {
@@ -1032736,7 +1032736,7 @@
                 "name": "Talisay",
                 "geo_level": "Bgy",
                 "adm4_en": "Talisay",
-                "municipality": "sibutu"
+                "municipality": "Sibutu"
             }
         },
         {
@@ -1033259,10 +1033259,10 @@
                 ]
             },
             "properties": {
-                "name": "Sibutu",
+                "name": "Sibutu Poblacion",
                 "geo_level": "Bgy",
-                "adm4_en": "Sibutu (Pob.)",
-                "municipality": "sibutu"
+                "adm4_en": "Sibutu Poblacion",
+                "municipality": "Sibutu"
             }
         },
         {
@@ -1036892,7 +1036892,7 @@
                 "name": "Sheik Makdum",
                 "geo_level": "Bgy",
                 "adm4_en": "Sheik Makdum",
-                "municipality": "sibutu"
+                "municipality": "Sibutu"
             }
         },
         {
@@ -1050982,7 +1050982,7 @@
                 "name": "Nunukan",
                 "geo_level": "Bgy",
                 "adm4_en": "Nunukan",
-                "municipality": "sibutu"
+                "municipality": "Sibutu"
             }
         },
         {
@@ -1066956,7 +1066956,7 @@
                 "name": "Ligayan",
                 "geo_level": "Bgy",
                 "adm4_en": "Ligayan",
-                "municipality": "sibutu"
+                "municipality": "Sibutu"
             }
         },
         {
@@ -1069978,7 +1069978,7 @@
                 "name": "Imam Hadji Mohammad",
                 "geo_level": "Bgy",
                 "adm4_en": "Imam Hadji Mohammad",
-                "municipality": "sibutu"
+                "municipality": "Sibutu"
             }
         },
         {
@@ -1072056,7 +1072056,7 @@
                 "name": "Hadji Taha",
                 "geo_level": "Bgy",
                 "adm4_en": "Hadji Taha",
-                "municipality": "sibutu"
+                "municipality": "Sibutu"
             }
         },
         {
@@ -1089698,7 +1089698,7 @@
                 "name": "Hadji Mohtar Sulayman",
                 "geo_level": "Bgy",
                 "adm4_en": "Hadji Mohtar Sulayman",
-                "municipality": "sibutu"
+                "municipality": "Sibutu"
             }
         },
         {
@@ -1095364,7 +1095364,7 @@
                 "name": "Hadji Imam Bidin",
                 "geo_level": "Bgy",
                 "adm4_en": "Hadji Imam Bidin",
-                "municipality": "sibutu"
+                "municipality": "Sibutu"
             }
         },
         {
@@ -1095942,7 +1095942,7 @@
                 "name": "Datu Amilhamja Jaafar",
                 "geo_level": "Bgy",
                 "adm4_en": "Datu Amilhamja Jaafar",
-                "municipality": "sibutu"
+                "municipality": "Sibutu"
             }
         },
         {
@@ -1097828,7 +1097828,7 @@
                 "name": "Ambulong Sapal",
                 "geo_level": "Bgy",
                 "adm4_en": "Ambulong Sapal",
-                "municipality": "sibutu"
+                "municipality": "Sibutu"
             }
         },
         {
@@ -1129469,7 +1129469,7 @@
             "properties": {
                 "name": "Tangngah",
                 "geo_level": "Bgy",
-                "adm4_en": "Tangngah (Lalung Sikubong)",
+                "adm4_en": "Tangngah",
                 "municipality": "sapa-sapa"
             }
         },
@@ -1142571,7 +1142571,7 @@
             "properties": {
                 "name": "Sapa-sapa",
                 "geo_level": "Bgy",
-                "adm4_en": "Sapa-sapa (Pob.)",
+                "adm4_en": "Sapa-sapa",
                 "municipality": "sapa-sapa"
             }
         },
@@ -1188039,7 +1188039,7 @@
             "properties": {
                 "name": "Latuan",
                 "geo_level": "Bgy",
-                "adm4_en": "Latuan (Suasang)",
+                "adm4_en": "Latuan",
                 "municipality": "sapa-sapa"
             }
         },
@@ -1613335,7 +1613335,7 @@
             "properties": {
                 "brgy": "Batu-batu",
                 "geo_level": "Bgy",
-                "adm4_en": "Batu-batu (Pob.)",
+                "adm4_en": "Batu-batu",
                 "municipality": "panglima sugala"
             },
             "bbox": [
@@ -1729817,7 +1729817,7 @@
             "properties": {
                 "name": "Lupa Pula",
                 "geo_level": "Bgy",
-                "adm4_en": "Lupa Pula (Pob.)",
+                "adm4_en": "Lupa Pula",
                 "municipality": "mapun"
             }
         },
@@ -1925501,7 +1925501,7 @@
             "properties": {
                 "name": "Languyan Proper",
                 "geo_level": "Bgy",
-                "adm4_en": "Languyan Proper (Pob.)",
+                "adm4_en": "Languyan Proper",
                 "municipality": "languyan"
             }
         },
@@ -1984535,7 +1984535,7 @@
             "properties": {
                 "name": "Jakarta",
                 "geo_level": "Bgy",
-                "adm4_en": "Jakarta (Lookan Latuan)",
+                "adm4_en": "Jakarta",
                 "municipality": "languyan"
             }
         },
@@ -2053181,7 +2053181,7 @@
             "properties": {
                 "adm4_en": "Pagatpat",
                 "geo_level": "Bgy",
-                "municipality": "bongao"
+                "municipality": "Bongao"
             }
         },
         {
@@ -2055230,7 +2055230,7 @@
             "properties": {
                 "adm4_en": "Lagasan",
                 "geo_level": "Bgy",
-                "municipality": "bongao"
+                "municipality": "Bongao"
             }
         },
         {
@@ -2066867,7 +2066867,7 @@
             "properties": {
                 "adm4_en": "Luuk Tulay",
                 "geo_level": "Bgy",
-                "municipality": "bongao"
+                "municipality": "Bongao"
             }
         },
         {
@@ -2096788,7 +2096788,7 @@
             "properties": {
                 "adm4_en": "Ungus-ungus",
                 "geo_level": "Bgy",
-                "municipality": "bongao"
+                "municipality": "Bongao"
             }
         },
         {
@@ -2099717,7 +2099717,7 @@
             "properties": {
                 "adm4_en": "Tongsinah",
                 "geo_level": "Bgy",
-                "municipality": "bongao"
+                "municipality": "Bongao"
             }
         },
         {
@@ -2106990,7 +2106990,7 @@
             "properties": {
                 "adm4_en": "Sumangat",
                 "geo_level": "Bgy",
-                "municipality": "bongao"
+                "municipality": "Bongao"
             }
         },
         {
@@ -2107071,7 +2107071,7 @@
             "properties": {
                 "adm4_en": "Kamagong",
                 "geo_level": "Bgy",
-                "municipality": "bongao"
+                "municipality": "Bongao"
             }
         },
         {
@@ -2113576,7 +2113576,7 @@
             "properties": {
                 "adm4_en": "Montay Montay",
                 "geo_level": "Bgy",
-                "municipality": "bongao"
+                "municipality": "Bongao"
             }
         },
         {
@@ -2120549,7 +2120549,7 @@
             "properties": {
                 "adm4_en": "Ipil",
                 "geo_level": "Bgy",
-                "municipality": "bongao"
+                "municipality": "Bongao"
             }
         },
         {
@@ -2131526,7 +2131526,7 @@
             "properties": {
                 "adm4_en": "Silubog",
                 "geo_level": "Bgy",
-                "municipality": "bongao"
+                "municipality": "Bongao"
             }
         },
         {
@@ -2134555,7 +2134555,7 @@
             "properties": {
                 "adm4_en": "Pababag",
                 "geo_level": "Bgy",
-                "municipality": "bongao"
+                "municipality": "Bongao"
             }
         },
         {
@@ -2142108,7 +2142108,7 @@
             "properties": {
                 "adm4_en": "Lapid Lapid",
                 "geo_level": "Bgy",
-                "municipality": "bongao"
+                "municipality": "Bongao"
             }
         },
         {
@@ -2146317,7 +2146317,7 @@
             "properties": {
                 "adm4_en": "Tarawakan",
                 "geo_level": "Bgy",
-                "municipality": "bongao"
+                "municipality": "Bongao"
             }
         },
         {
@@ -2156794,7 +2156794,7 @@
             "properties": {
                 "adm4_en": "Malassa",
                 "geo_level": "Bgy",
-                "municipality": "bongao"
+                "municipality": "Bongao"
             }
         },
         {
@@ -2182903,7 +2182903,7 @@
             "properties": {
                 "adm4_en": "Mandulan",
                 "geo_level": "Bgy",
-                "municipality": "bongao"
+                "municipality": "Bongao"
             }
         },
         {
@@ -2186948,7 +2186948,7 @@
             "properties": {
                 "adm4_en": "Paniongan",
                 "geo_level": "Bgy",
-                "municipality": "bongao"
+                "municipality": "Bongao"
             }
         },
         {
@@ -2190517,7 +2190517,7 @@
             "properties": {
                 "adm4_en": "Lato Lato",
                 "geo_level": "Bgy",
-                "municipality": "bongao"
+                "municipality": "Bongao"
             }
         },
         {
@@ -2194822,7 +2194822,7 @@
             "properties": {
                 "adm4_en": "Masantong",
                 "geo_level": "Bgy",
-                "municipality": "bongao"
+                "municipality": "Bongao"
             }
         },
         {
@@ -2199311,7 +2199311,7 @@
             "properties": {
                 "adm4_en": "Lakit Lakit",
                 "geo_level": "Bgy",
-                "municipality": "bongao"
+                "municipality": "Bongao"
             }
         },
         {
@@ -2199884,7 +2199884,7 @@
             "properties": {
                 "adm4_en": "Luuk Pandan",
                 "geo_level": "Bgy",
-                "municipality": "bongao"
+                "municipality": "Bongao"
             }
         },
         {
@@ -2202217,7 +2202217,7 @@
             "properties": {
                 "adm4_en": "Tubig Basag",
                 "geo_level": "Bgy",
-                "municipality": "bongao"
+                "municipality": "Bongao"
             }
         },
         {
@@ -2205438,7 +2205438,7 @@
             "properties": {
                 "adm4_en": "Karungdong",
                 "geo_level": "Bgy",
-                "municipality": "bongao"
+                "municipality": "Bongao"
             }
         },
         {
@@ -2208359,7 +2208359,7 @@
             "properties": {
                 "adm4_en": "Pakias",
                 "geo_level": "Bgy",
-                "municipality": "bongao"
+                "municipality": "Bongao"
             }
         },
         {
@@ -2209300,7 +2209300,7 @@
             "properties": {
                 "adm4_en": "Pagasinan",
                 "geo_level": "Bgy",
-                "municipality": "bongao"
+                "municipality": "Bongao"
             }
         },
         {
@@ -2211861,7 +2211861,7 @@
             "properties": {
                 "adm4_en": "Sanga-sanga",
                 "geo_level": "Bgy",
-                "municipality": "bongao"
+                "municipality": "Bongao"
             }
         },
         {
@@ -2216922,7 +2216922,7 @@
             "properties": {
                 "adm4_en": "Nalil",
                 "geo_level": "Bgy",
-                "municipality": "bongao"
+                "municipality": "Bongao"
             }
         },
         {
@@ -2223499,7 +2223499,7 @@
             "properties": {
                 "adm4_en": "Pahut",
                 "geo_level": "Bgy",
-                "municipality": "bongao"
+                "municipality": "Bongao"
             }
         },
         {
@@ -2223836,7 +2223836,7 @@
             "properties": {
                 "adm4_en": "Pag-asa",
                 "geo_level": "Bgy",
-                "municipality": "bongao"
+                "municipality": "Bongao"
             }
         },
         {
@@ -2227449,7 +2227449,7 @@
             "properties": {
                 "adm4_en": "Pasiagan",
                 "geo_level": "Bgy",
-                "municipality": "bongao"
+                "municipality": "Bongao"
             }
         },
         {
@@ -2227598,7 +2227598,7 @@
             "properties": {
                 "adm4_en": "Tubig-Boh",
                 "geo_level": "Bgy",
-                "municipality": "bongao"
+                "municipality": "Bongao"
             }
         },
         {
@@ -2229871,7 +2229871,7 @@
             "properties": {
                 "adm4_en": "Simandagit",
                 "geo_level": "Bgy",
-                "municipality": "bongao"
+                "municipality": "Bongao"
             }
         },
         {
@@ -2231508,7 +2231508,7 @@
             "properties": {
                 "adm4_en": "Tubig Tanah",
                 "geo_level": "Bgy",
-                "municipality": "bongao"
+                "municipality": "Bongao"
             }
         },
         {
@@ -2233605,7 +2233605,7 @@
             "properties": {
                 "adm4_en": "Lamion",
                 "geo_level": "Bgy",
-                "municipality": "bongao"
+                "municipality": "Bongao"
             }
         },
         {
@@ -2233826,7 +2233826,7 @@
             "properties": {
                 "adm4_en": "Tubig-Mampallam",
                 "geo_level": "Bgy",
-                "municipality": "bongao"
+                "municipality": "Bongao"
             }
         },
         {
@@ -2235103,7 +2235103,7 @@
             "properties": {
                 "adm4_en": "Poblacion",
                 "geo_level": "Bgy",
-                "municipality": "bongao"
+                "municipality": "Bongao"
             }
         }
     ]

@@ -231,10 +231,20 @@ export default function Map() {
 
     map.addControl(new NavigationControl(), "bottom-right");
 
+    // map.on("load", () => {
+    //   addGeoJsonLayer(map);
+    //   setGeoJsonVisibility(map, showGeoLayer);
+    // });
+
     map.on("load", () => {
-      addGeoJsonLayer(map);
+  void addGeoJsonLayer(map)
+    .then(() => {
       setGeoJsonVisibility(map, showGeoLayer);
+    })
+    .catch((error) => {
+      console.error("Failed to load GeoJSON layer:", error);
     });
+});
 
     mapRef.current = map;
 

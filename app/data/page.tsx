@@ -111,9 +111,10 @@ export default function DataPage() {
           </div>
         )}
 
-        {/* GeoJSON Explorer */}
+   
         <GeoJSONExplorer />
       </div>
     </main>
   );
 }
+
